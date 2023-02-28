@@ -56,4 +56,6 @@ https://mobaxterm.mobatek.net/download-home-edition.html
 7.download oracle 19c from edelievry
 8.Install
 https://oracle-base.com/articles/18c/oracle-db-18c-installation-on-oracle-linux-8
+https://winscp.net/eng/download.php
+
 
