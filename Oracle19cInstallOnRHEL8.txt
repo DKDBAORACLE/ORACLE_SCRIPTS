@@ -1,0 +1,59 @@
+1.Install the required RPMs
+yum install -y binutils
+yum install -y elfutils-libelf
+yum install -y elfutils-libelf-devel
+yum install -y fontconfig
+yum install -y gcc
+yum install -y gcc
+yum install -y glibc
+yum install -y glibc-devel
+yum install -y ksh
+yum install -y libnsl2
+yum install -y libX11
+yum install -y libXau
+yum install -y libXaw
+yum install -y libXi
+yum install -y libXrender
+yum install -y libXtst
+yum install -y libaio
+yum install -y libaio-devel
+yum install -y libattr-devel
+yum install -y libgcc
+yum install -y libgfortran
+yum install -y libibverbs
+yum install -y libnsl
+yum install -y librdmacm
+yum install -y libstdc
+yum install -y libstdc
+yum install -y libxcb
+yum install -y make
+yum install -y net-tools
+yum install -y pam
+yum install -y pam-devel
+yum install -y policycoreutils
+yum install -y policycoreutils-python-utils-2.9-9.el8.noarch
+yum install -y smartmontools
+yum install -y sysstat
+2.Step 1 create users
+groupadd -g 54321 oinstall
+groupadd -g 54322 dba
+useradd -u 54321 -g oinstall -G dba,oper oracle
+passwd oracle
+
+3..Install X Window rpm
+xorg-x11-apps-7.7-6.el6.x86_64
+sudo yum install xorg-x11-xauth
+sudo yum install xclock xterm
+ vi /etc/ssh/sshd_config
+ X11Forwarding yes
+ 
+4.Dowload Mobaxterm
+https://mobaxterm.mobatek.net/download-home-edition.html
+
+
+5.Check Memory, CPU, SWAP, 
+6.download putty, winscp
+7.download oracle 19c from edelievry
+8.Install
+https://oracle-base.com/articles/18c/oracle-db-18c-installation-on-oracle-linux-8
+
