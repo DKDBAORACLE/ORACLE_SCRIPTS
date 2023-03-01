@@ -57,6 +57,7 @@ https://mobaxterm.mobatek.net/download-home-edition.html
 8.Install
 https://oracle-base.com/articles/18c/oracle-db-18c-installation-on-oracle-linux-8
 https://winscp.net/eng/download.php
+https://yum.oracle.com/repo/OracleLinux/OL8/baseos/latest/x86_64/index.html
 
 Kernal Parameters
 kernel.shmmax = 17179869184
